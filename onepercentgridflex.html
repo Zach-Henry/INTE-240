@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Percent Grid and Flex</title>
+    <style>
+        .mygrid {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            text-align: center;
+        }
+        .myflex {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .mygrid span, .myflex span {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mygrid">
+        <span>Be</span>
+        <span>One</span>
+        <span>Percent</span>
+        <span>Better</span>
+        <span>Than</span>
+        <span>Yesterday.</span>
+    </div>
+    <br />
+    <div class="myflex">
+        <span>Yesterday.</span>
+        <span>Than</span>
+        <span>Better</span>
+        <span>Percent</span>
+        <span>One</span>
+        <span>Be</span>
+    </div>
+</body>
+</html>
