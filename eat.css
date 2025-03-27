@@ -11,3 +11,7 @@
 button:hover {
     background-color: aqua;
 }
+.selected {
+    background-color: purple;
+    color: white;
+    }
